@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.rongtao.smarttoast.view.CardVoucherView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#44ff33cf"
+    android:padding="20dp"
+    >
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:src="@mipmap/a_bg"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold|italic"
+        android:text="toast对话框"
+        android:layout_marginLeft="8dp"
+        />
+</com.rongtao.smarttoast.view.CardVoucherView>
